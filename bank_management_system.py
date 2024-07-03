@@ -20,7 +20,8 @@ class Account:
         self.name = name
         self.type = type
         self.deposit = deposit
-
+#we have to deposit the amount using this button
+    
     def depositAmount(self, amount):
         self.deposit += amount
 
